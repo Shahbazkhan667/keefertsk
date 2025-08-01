@@ -4,8 +4,10 @@ body{
     padding-top: 0%;
     padding-left: 0%;
     margin-left: 0%;
-border-left: solid rgb(138, 134, 134) 12px;
-border-right: solid rgb(138, 134, 134) 12px;
+border-left: solid  rgb(107, 106, 106) 15px;
+border-right: solid rgb(107, 106, 106) 15px;
+
+
 box-sizing: border-box;
 
 }
@@ -33,7 +35,7 @@ h1{
 }
 
 .nav-main{
-     box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5)
+     box-shadow: inset 0px 2px 50px rgba(15, 6, 6, 0.5)
 }
   a{
         text-decoration: none;
@@ -256,6 +258,7 @@ color: black
       }
       .sections{
         display: flex;
+
         
       }
       .left-section{
@@ -263,24 +266,70 @@ color: black
         object-fit: cover;
      
       }
-      .head{
-        display: flex;
-        align-items: center;
+       .right-section{
+       
+        height: 65vh;
+        width: 100vw;
+        background-image: url(form_bg.jpg);
+background-repeat: no-repeat;
+object-fit: cover;
+background-size: 100% 100%;
+background-position: center;
+    
+   display: flex;
+   flex-direction: column;
+        border:  solid rgb(180, 176, 176);
+        border-width: 1px;
+     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5); 
+        margin: 20px 4% 0px 5px;
+      }
+       /* .head{ 
+         display: flex;
+      
         width: 190px;
         height: 40px;
         background-color: #a61616;
         display: flex;
-        font-size: 30px;
+        font-size: 0px;
         text-transform: uppercase;
         color: white;
-      }
-     .head-right{
-      display: flex;
-     margin-left: 43%;
-     margin-top: -7%;
+      } */
+     /* .head h3{
+    color: #000;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+   
      
-     }
-      
+     } */
+      .head{
+        color: #110f0f;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+        
+      }
+     
+      .head  h4{
+       
+        margin: 0%;
+      font-family: sans-serif;
+   padding: 0.5em 0  0  1em ;
+      font-size: 22px;
+    width: fit-content;
+    
+      }
+      .head h3{
+        background-color: #a61616;
+        width: 16vw;
+       height: fit-content;
+        font-family:   Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 1.6em;
+        color: white;
+        padding: 2.5%;
+        margin: 0%;
+      }
       .submit-btn{
         background-image: url(bullet_white.gif);
       background-repeat: no-repeat;
@@ -297,28 +346,15 @@ margin-left: 10px;
 margin-right: 5%;
       margin-top: 10px;
       }
-      .right-section{
-       
-        height: 400px;
-        background-image: url(form_bg.jpg);
-background-repeat: no-repeat;
-object-fit: cover;
-background-size: 100% 100%;
-background-position: center;
-    
-      
-        border:  solid rgb(180, 176, 176);
-        border-width: 1px;
-     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5); 
-        margin: 20px 4% 0px 5px;
-      }
+     
       .nav-right{
         
 display: flex;
 flex-direction: column;
 position: absolute;
 right: 5%;
-
+width: 20vw;
+height: 100vh;
 margin-top: 1%;
 
 
@@ -368,6 +404,7 @@ gap: 40px;
      height: 40px;
   padding-bottom: 0%;
 justify-content: center;
+
   
       }
      
