@@ -15,12 +15,11 @@ box-sizing: border-box;
     .nav-right{
 display: flex;
 flex-direction: column;
-position: absolute;
-right: 0%;
+
 width: fit-content;
 height: fit-content;
 margin-top: 1%;
-margin-right: 3.5%;
+margin-left: 21%;
 font-size: 1rem;
 
       }
@@ -126,6 +125,8 @@ color: black
       }
 .three-sections{
   margin-top: 3%;
+   width: 100% ;
+   display: flex;
 }
       
       .box-border {
@@ -151,8 +152,8 @@ color: black
         width: 18%;
         margin-right: 1%;
         margin-left: 10px;
-        position: absolute;
-        right: 0%;
+        
+        
         display: flex;
         justify-content: center;
         
@@ -396,6 +397,8 @@ background-position: center;
         padding-right: 8px;
       
       }
+      
+   
       #image-line{
         width:200px;
          height:2px;
@@ -488,26 +491,38 @@ margin-right: 5%;
       }
      
      @media  (max-width: 500px)  {
+
+     
   .nav-right{
     font-size: 0.5rem;
+  display: flex;
+
+  
+
+
+ 
   }
+ .navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
   
   .navlogo img{
  width: 50vw;
  height: 10vh;
+ 
   }
   ul{
     font-size: 0.5rem;
     gap: 5%;
     height: 5vh;
+    display: flex;
+    justify-content: center;
 
   }
-  .three-sections{
-   display: flex;
-   width: 50%;
-
-   
-}
+ 
 .box{
   width: fit-content;
   font-size: 8px;
@@ -516,21 +531,30 @@ margin-right: 5%;
   width: 20px;
   height: 10px;
 }
+.sections{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
  .left-section img{ 
-        margin:  2% 0% 0% 2.5%;
-        padding-bottom: 0%;
+       
+        
         object-fit: cover;
-       height: 20vh;
-       width: 40vw;
+       height: 35vh;
+       width:70vw;
          box-shadow: -1px 0px 5px 0px rgb(11, 11, 11);
      
       }
        .right-section{
-      
-        height: 20vh;
-        width: 40vw;
+      margin-top: -20px;
+      margin-left: 25px;
+        height: 35vh;
+        width: 70vw;
         background-image: url(form_bg.jpg);
-font-size: 3px;
+font-size: 4px;
 background-repeat: no-repeat;
 object-fit: cover;
 background-size: 100% 100%;
@@ -541,8 +565,7 @@ background-position: center;
         border:  solid rgb(180, 176, 176);
         border-width: 1px;
      box-shadow: 5px 0px 10px 1px rgba(0, 0, 0, 0.5); 
-        margin: 1% 2% 0% 0%;
-        padding-right: 8px;
+      
       
       }
       input{
@@ -577,6 +600,16 @@ margin-left: 5em;
 margin-top: 3%;
      
       }
+
+      .three-sections{
+  margin-top: 3%;
+   width: 100% ;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
        .bt0n{
       width: 10px;
       height: 20px;
@@ -630,6 +663,12 @@ margin-top: 3%;
       }
       .box0{
         height: 60px;
+        width: 250px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+   
+    
       }
       .box5 h3{
         font-size: 10px;
@@ -640,17 +679,18 @@ margin-top: 3%;
         .btn9{
         margin: 0%;
         padding: 0% 0% 0% 5%;
-        margin-left: 60px;
+        margin-left: 35px;
         font-size: 5px;
         display: flex;
         align-items: center;
+       
         gap: 5px; 
         width: 50px;
         height: 20px;
      
       }
       #image-line{
-        width:50px;
+        width:100px;
          height:1px;
       }
    .image1 img{
@@ -658,18 +698,21 @@ margin-top: 3%;
   
     width: 10px;
    }
-   .bottom-gallery{
-    display: flex;
-    justify-content: center;
-    gap: 2px;
-
-   }
+  
    .text-div-top p{
     font-size: 10px;
    }
    .partition-div img{
-width: 50px;
+width: 100px;
 height: 1px;
+display: flex;
+align-items: center;
+justify-content: center;
+   }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    }
      }
 
