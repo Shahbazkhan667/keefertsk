@@ -705,12 +705,12 @@ margin-bottom: 2em;
 margin: 0%;
 padding: 0%;
 } 
- .wraper1{
+ /* .wraper1{
   display: flex;
    justify-content: center;
   align-items: center; 
   
-} 
+}  */
      
 
 
@@ -1255,10 +1255,10 @@ border-right: none;
     }
     
     
-      /* .images img{
+      .images img{
         height: 15vh;
         width: 16vw;
-      } */
+      }
       .images{
         padding: 0% !important;
         margin-left: 0%;
@@ -1272,11 +1272,11 @@ border-right: none;
 
 
   .box-border {
-        /* margin: 5% 0% 0% 20%; */
+        margin: 0% 0% 0% 0%;
 
       }
       .box-border img{
-        height: auto;
+        height: fit-content;
         width: auto;
       }
       .last-border-right{
@@ -1286,15 +1286,16 @@ border-right: none;
       }
       .bottom-gallery{
         display: flex;
-        
-       justify-content:left;
-       gap: 10px;
-      
+ justify-content: left;
+       gap: 5px;
       }
+    
+
+      
       .border-right{
         
-        /* margin-right: 1%;
-        margin-left: 10px; */
+        margin-right: 1%;
+        margin-left: 10px;
         
         
         display: flex;
@@ -1309,18 +1310,36 @@ border-right: none;
 
       }
       .box5 p{
-        /* margin: 0% 0% 0% 5% ;
-        padding: 7px 0% 5% 0%; */
+        margin: 0% 0% 0% 5% ;
+        padding: 0% 0% 0% 0%;
         width: 100%;
 
       }.box5{
-        margin-bottom: 1%;
+        margin-bottom: 0%;
       }
-      
+
+      .btn9{
+        padding-left: 0%;
+        justify-content: center;
+      }
+      .photo-borde img{
+        height: fit-content;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+      }
+      .text-div-top{
+        display: flex;
+        justify-content: left;
+        margin-left: 0% !important;
+        padding-left: 0%;
+      }
+    }
+    
+           */
 /* .learn-more-about{
   display: flex;
         justify-content: center;
- } */
+ }
       .dropdown-content{
     display: flex;
        margin-left: 0% !important;
@@ -1349,19 +1368,19 @@ text-align: center;
 
 
 }
- .wraper1{
+ /* .wraper1{
   display: flex;
 
    justify-content: center;
   align-items: center; 
   
-} 
-.photo-border img{
+}  */
+/* .photo-border img{
 width: max-content;
 margin: 0% !important;
 padding: 0% !important;
-}
-     }
+} */
+     
      
 /* @media  screen and ( min-width:805px) and (max-width:1150px){
 .right-section{
