@@ -1300,6 +1300,7 @@ border-right: none;
         
         display: flex;
         justify-content: center;
+        align-items: center;
         
       }
       .box5 h3{
@@ -1322,16 +1323,21 @@ border-right: none;
         padding-left: 0%;
         justify-content: center;
       }
-      .photo-borde img{
+      /* .photo-borde img{
         height: fit-content;
         margin-bottom: 0%;
         padding-bottom: 0%;
-      }
+      } */
       .text-div-top{
         display: flex;
         justify-content: left;
         margin-left: 0% !important;
         padding-left: 0%;
+      }
+       .photo-border img{
+        height: auto;
+        width: auto;
+        margin-bottom: 1% !important; 
       }
     }
     
